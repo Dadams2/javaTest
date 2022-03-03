@@ -13,7 +13,7 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v17.2
-      - uses: raferg/checkstyle-action@master
+      - uses: dadams/checkstyle-action@master
         id: checkStyleRaferg
         with:
           github_token: ${{ secrets.github_token }}
